@@ -21,8 +21,14 @@ spring:
     import:
       - jpa.yml
       - redis.yml
+      - kafka.yml
+      - pg.yml
+      - resilience4j.yml
       - logging.yml
       - monitoring.yml
+      - queue.yml
+      - ranking.yml
+      - batch.yml
 
 springdoc:
   use-fqn: true
